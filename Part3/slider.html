@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Slider Example</title>
+	<!-- the three things that jQuery Mobile needs to work -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	<meta name="viewport" content="width=device-width" />
+</head>
+
+<body>
+	<!-- This is the first page -->
+	<section id="firstpage" data-role="page">
+		<header data-role="header">
+			<h1>Slider Example</h1>
+		</header>
+		<div class="ui-content">
+			<form method="get" action="">
+				<fieldset class="ui-field-contain">
+					<legend>Numerical Slider Example</legend>
+
+					<label for="num">Enter a Number</label>
+					<input type="range" name="num" id="num" value="25" min="0" max="100" />
+				</fieldset>
+			</form>
+		</div>
+	</section>
+</body>
+
+</html>
